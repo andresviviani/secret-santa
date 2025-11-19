@@ -1,0 +1,146 @@
+body {
+  background: linear-gradient(to bottom, #ffefba, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #c62828;
+  text-shadow: 2px 2px #fff;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+button {
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes snowfall {
+  0% {transform: translateY(-10px);}
+  100% {transform: translateY(100vh);}
+}
+
+.snowflake {
+  position: fixed;
+  top: -10px;
+  color: white;
+  font-size: 1.2rem;
+  animation-name: snowfall;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  opacity: 0.8;
+}
+
+body {
+  background: linear-gradient(to bottom, #FFFCF5, #FFEFBA);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #B01B2E; /* rosso natalizio */
+  text-shadow: 2px 2px #FFFCF5;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  background: white;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+button {
+  background-color: #B01B2E;
+  color: white;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  background-color: #8A131F;
+  transform: scale(1.05);
+}
+
+.small-note {
+  color: #3C8D0D; /* verde natalizio per note */
+}
+
+.card-accent {
+  background: #FFE6F0;
+  border-radius: 10px;
+  color: #B71C1C;
+}
+
+@keyframes snowfall {
+  0% {transform: translateY(-10px);}
+  100% {transform: translateY(100vh);}
+}
+.snowflake {
+  position: fixed;
+  top: -10px;
+  color: white;
+  font-size: 1.2rem;
+  animation-name: snowfall;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  opacity: 0.8;
+}
+
+.reveal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem;
+}
+
+.reveal-box {
+  display: inline-block;
+  padding: 2rem 3rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 4px solid #b71c1c;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.reveal-text {
+  margin: 0;
+  font-weight: bold;
+  color: #b71c1c;
+}
+
+.reveal-loading .reveal-text {
+  font-size: 1.5rem;
+}
+
+.reveal-explode .reveal-text {
+  font-size: 1.5rem;
+}
+
+.reveal-show .reveal-text {
+  font-size: 4rem;
+}
+
+

@@ -1,0 +1,106 @@
+{
+  "utenti": [
+    {
+      "nome": "Pablo",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "3",
+      "pin": "1410",
+      "destinatario": 9,
+      "id": 1
+    },
+    {
+      "nome": "Francesca",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "3",
+      "pin": "8539",
+      "destinatario": 8,
+      "id": 2
+    },
+    {
+      "nome": "Samuele",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "3",
+      "pin": "3739",
+      "destinatario": 7,
+      "id": 3
+    },
+    {
+      "nome": "Gabriele",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "3",
+      "pin": "5089",
+      "destinatario": 10,
+      "id": 4
+    },
+    {
+      "nome": "Andres",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "8",
+      "pin": "5214",
+      "destinatario": 11,
+      "id": 5
+    },
+    {
+      "nome": "Milo",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "8",
+      "pin": "2966",
+      "destinatario": 4,
+      "id": 6
+    },
+    {
+      "nome": "Ashe",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "8",
+      "pin": "1345",
+      "destinatario": 2,
+      "id": 7
+    },
+    {
+      "nome": "Miguelina",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "0",
+      "pin": "9018",
+      "destinatario": 5,
+      "id": 8
+    },
+    {
+      "nome": "Carlos",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "0",
+      "pin": "2569",
+      "destinatario": 3,
+      "id": 9
+    },
+    {
+      "nome": "Lorenzo",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "2",
+      "pin": "1063",
+      "destinatario": 6,
+      "id": 10
+    },
+    {
+      "nome": "Alicia",
+      "indirizzo": "",
+      "note": "",
+      "famiglia": "2",
+      "pin": "7861",
+      "destinatario": 1,
+      "id": 11
+    }
+  ],
+  "config": {
+    "registrazioneAttiva": true
+  }
+}
